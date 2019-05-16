@@ -1,0 +1,66 @@
+/*This CSS was copied from index_2.css file*/
+html {
+  margin:0;
+  padding: 0;
+}
+body {
+  padding: 10px;
+  margin: 0;
+}
+#rainbow {
+  background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  font-size: 50pt;
+  color: white;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+#header p {
+  background-color: pink;
+  color: black;
+}
+p {
+  padding: 10px;
+  margin: 0;
+  border: 5px solid black;
+  position: relative;
+}
+h3 {
+  color: white;
+}
+
+.section {
+  background-color: black;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
+
+#header {
+  background-image: url("love_a_diction_gif.gif");
+  background-size: cover;
+  height: 310px;
+}
+#header img {
+}
+#header p {
+  font-size: ;
+  color: ;
+  padding-top: ;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*This will be the new CSS added and/or modified. */
+h2  {
+  color: white;
+}
+p {
+  color: pink;
+}

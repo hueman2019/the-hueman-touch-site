@@ -1,27 +1,35 @@
 html {
-  margin:0;
+  font-size: 12px;
+  margin: 0;
   padding: 0;
 }
+
 body {
-  padding: 10px;
+  padding: 0;
   margin: 0;
 }
+
 #rainbow {
   background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-h1 {
+
+header {
+  background-image: url("universe_gif.gif");
+  background-size: cover;
+  width: 100%;
+}
+
+#title {
+  background-color: black;
+  color: white;
   font-size: 50pt;
-  color: ;
   text-align: center;
   padding: 18px 0 18px 0;
   margin: 0 0 10px 0;
 }
-#title {
-  background-color: black;
-  color: white;
-}
+
 p {
   padding: 0;
   margin: 0;
@@ -34,20 +42,6 @@ p {
   border-radius: 2px;
 }
 
-#header {
-  background-image: url("img/universe_gif.gif");
-  background-size:cover;
-}
-#header img {
-}
-#header p {
-  font-size: ;
-  color: ;
-  padding-top: ;
-  margin: 0;
-  font-weight: bold;
-  text-align: center;
-}
 
 /*This code has been copied from the original CSS index*/
 /*This is the NAVIGATION BAR*/
@@ -56,90 +50,104 @@ table {
   font-size: ;
   align-self: center;
 }
+
 /*This CSS code manipulates both the navbar
 and the table in the following section of HTML*/
-.navbar_tab {
-  background-color: orange;
-  width:auto;
-  padding: 3.5px;
-  margin: 5px;
-}
-#navbar {
+nav {
   background-color: black;
   align-content: center;
   display: inline-block;
   width: 100%;
 }
-#navbar ul {
+
+.navbar_tab {
+  background-color: orange;
+  width: auto;
+  padding: 3.5px;
+  margin: 5px;
+}
+
+
+nav ul {
   /* Mess with the BGC to know where the section is*/
   background-color: black;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-#navbar a {
+
+nav a {
   display: block;
   width: auto;
 }
-#navbar li a {
+
+nav li a {
   color: white;
 }
-#navbar li {
+
+nav li {
   float: ;
   width: auto;
+  text-align: center;
+  padding: 8px;
+  font-size: 1.2rem;
 }
-#navbar li:hover {
+
+nav li:hover {
   background: black;
   color: black;
   border: 4px solid red;
 }
-#navbar li ul {
+
+nav li ul {
   display: none;
 }
-#navbar li:hover ul {
+
+nav li:hover ul {
   background-color: black;
   display: inline-grid;
   width: auto;
   position: absolute;
 }
-/*This marks the end of NAVBAR CSS*/
-/*#navbar li:hover ul li {
-  display: block;
-  width: auto;
-  position: relative;
-}*/
 
-
-/*This CSS marks the code for the main
-section of the homePage*/
-table h1 {
+.tableheader {
+  background-color: black;
   color: red;
   font-size: 35px;
+  text-align: center;
 }
-table h2 {
-  color: white;
+.fiftypercent {
+  width: 50%;
+  border-collapse: collapse;
 }
-.home_page_links {
-  color: white;
-}
+
 .main {
-  border: 2px dashed white;
+  border: 5px dashed white;
   width: 80%;
   margin-left: 10%;
+  border-collapse: collapse;
 }
+
 td {
   background-color: black;
-  width:auto;
+  width: auto;
   color: white;
   padding: 5px;
   margin: 5px;
 }
+
+.home_page_links {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
 .home {
   width: 90%;
   padding: 5px;
   margin: 0;
 }
-
 
 /*The following CSS code was copied from the
 original index_style*/
@@ -162,53 +170,33 @@ original index_style*/
   color: blue;
 }
 
-/*The following CSS will contribute to Power
-Week HTML page*/
-#power_week_colors {
-  background-color: red;
-  font-size: 30px;
-}
-thead {
 
-}
-.table_content {
-  font-size: 25px;
-}
-/*The following CSS will contribute to Roles.html*/
-.role {
-  color: white;
-  border: 8px solid black;
-  background-color: blue;
-}
-.role_description {
-  font-size: 24px;
-}
-#subtitle {
-  background-color: black;
-  color: white;
-}
-/*This is CSS for the Book.HTML*/
-.booklist {
-  font-size: 20px;
-}
+@media only screen (max-width:450px) {
+  body {
+    padding: 0;
+  }
 
-/*This is CSS for the what_is_a_leader.HTML */
-#profile_image {
-  padding: 10px;
-  height: auto;
-  width: 350px;
-  float: left;
-}
-.header_section {
-  background-color: black;
-  width: 100%;
-  height: 400px;
-  padding: ;
-}
-.white_text {
-  font-family: Helvetica;
-  color: white;
-  font-size: 22px;
-  text-align: center;
-  padding: 20px;
+  #header {
+    width: 100%;
+  }
+
+  nav {
+    background-color: white;
+    align-content: center;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .navbar_tab {
+    background-color: blue;
+    width: 5%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .column1 {
+    width: 100%;
+  }
+
+
 }

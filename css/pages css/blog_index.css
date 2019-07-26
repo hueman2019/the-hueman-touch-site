@@ -6,7 +6,7 @@
   font-family: helvetica;
 }
 header {
-  background-image: url('img/top_of_tunnel.png');
+  background-image: url("img/top_of_tunnel.png");
   background-repeat: no-repeat;
   background-blend-mode: lighten;
   width: 65.5%;

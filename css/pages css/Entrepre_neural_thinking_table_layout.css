@@ -1,0 +1,30 @@
+body  {
+  font-size: 12px;
+}
+#ent {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+table {
+  width: 100%;
+}
+#content-subtitle {
+  font-size: 1.75rem;
+  background-color: black;
+  color: white;
+}
+.left-column {
+  width: 50%;
+  margin: 30px;
+}
+#jpg {
+  text-align: left;
+  width: auto;
+  margin-top: 0;
+}
+.content-row {
+  padding: 15px;
+  margin: 10px;
+  text-align: center
+}

@@ -1,0 +1,52 @@
+/*This CSS was copied from index_2.css file*/
+html {
+  margin:0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  padding: 10px;
+  margin: 0;
+  background-color: black;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+h2, h3  {
+  color: white;
+}
+p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: pink;
+  padding: 10px;
+  margin: 0;
+  border: 5px solid palegreen;
+  position: relative;
+}
+#header p {
+  background-color: pink;
+  color: black;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  line-height: 5rem;
+}
+.language-of-love {
+  background-color: black;
+  display: inline;
+}
+.section {
+  background-color: black;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  border-radius: 2px;
+}
